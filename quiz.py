@@ -1,6 +1,27 @@
 import random
 import colorama
-
+from rich.console import Console
+import colorama
+def banner():
+    console = Console()
+    Star_Wars ="""
+    .______        ___      .___________.  ______  __    __         __   __  
+    |   _  \      /   \     |           | /      ||  |  |  |       /_ | /_ | 
+    |  |_)  |    /  ^  \    `---|  |----`|  ,----'|  |__|  |        | |  | | 
+    |   _  <    /  /_\  \       |  |     |  |     |   __   |        | |  | | 
+    |  |_)  |  /  _____  \      |  |     |  `----.|  |  |  |        | |  | | 
+    |______/  /__/     \__\     |__|      \______||__|  |__|        |_|  |_| 
+                                                                            
+    """
+    console.print(Star_Wars, style="bold yellow")
+    console.print("Creators : \n", style="bold cyan")
+    console.print("DINESH KUMAR P \nGOKULAVANAN M \nJASHWANTH T", style="bold yellow")
+    print("""
+    You are Happy now !!:
+        Embrace the joy you feel right now, and let it be a reminder of the beauty and goodness in life. 
+        Cherish these moments and spread your positive energy to those around you.
+            """)
+banner()
 questions = [
     ("How do you feel after receiving a promotion at work?", "A) Thrilled", "B) Heartbroken", "C) Anxious", "D) Furious", "E) Astonished"),
     ("How do you feel when your favorite team wins the championship?", "A) Ecstatic", "B) Sorrowful", "C) Terrified", "D) Annoyed", "E) Shocked"),
