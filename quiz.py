@@ -4,8 +4,9 @@ from rich.console import Console
 import colorama
 def banner():
     console = Console()
-    Star_Wars =
-    """
+    Star_Wars ="""
+
+    
     .______        ___      .___________.  ______  __    __         __   __  
     |   _  \      /   \     |           | /      ||  |  |  |       /_ | /_ | 
     |  |_)  |    /  ^  \    `---|  |----`|  ,----'|  |__|  |        | |  | | 
